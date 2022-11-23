@@ -1,7 +1,11 @@
 <?php
-    $name = 'mmm';
-    $lastname = 'asadi' ;
-    $number1 = 23 ; 
-    $number2 = 4.44 ;
-    echo pi() ;
+    $names = ['merhsad' , 'batman' , 'iran'];
+
+
+    function GetName(){
+        return 23 ;
+    }
+
+
+    echo GetName();
 ?>
